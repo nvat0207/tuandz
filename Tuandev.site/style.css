@@ -1,0 +1,38 @@
+
+.logo{
+	flex: 1;
+}
+li{
+	list-style: none;
+	font: bold;
+	margin-left: 128px;
+	margin-top: 28px;
+}
+a{
+	margin-left: 156px;
+	margin-top: 20px;
+	text-decoration: none;
+	font: bold;
+	color: royalblues;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 12 50px;
+	height: 70px;
+	align-items:center;
+}
+.menu > li{
+	color: goldenrod;
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	margin-left: 128px;
+	padding: 0;
+}
+.menu > li a{
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: bold;
+}
